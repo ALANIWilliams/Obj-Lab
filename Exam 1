@@ -1,0 +1,30 @@
+import java.util.Scanner;
+    public class Functions{
+
+     public static void main(String []args){
+             
+         Scanner input = new Scanner(System.in);
+         
+         System.out.println("Enter a number");
+         int first = input.nextInt();
+         
+         System.out.println("Enter a second number");
+         int second = input.nextInt();
+         
+         int add = (first + second);
+         int subtract = (first - second);
+         int multiply = (first * second);
+         int divide = (first / second);
+        
+         System.out.println("The sum of your two numbers is "+ add);
+         
+         System.out.println("The difference of your two numbers is "+ subtract);
+         
+         System.out.println("The product of your two numbers is "+ multiply);
+         
+         System.out.println("The quotient of your two numbers is "+ divide);
+         
+         
+     
+     }
+}
