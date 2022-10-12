@@ -1,0 +1,22 @@
+class polygon {
+    public void render() {
+        System.out.println("");
+    }
+ }
+ 
+    
+class square extends polygon {
+    public void render() {
+        System.out.println("This is a square");
+    }
+}
+
+
+class Main{
+
+     public static void main(String []args){
+        square s1 = new square (); 
+    
+        s1.render();
+     }
+}
