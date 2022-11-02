@@ -1,0 +1,42 @@
+//Java Message Passing
+
+
+public class practice {
+
+public static void main(String []args){
+       practice object = new practice();
+       object.print();
+       object.equation();
+      extension object2 = new extension();
+      object2.encap2();
+     }
+
+public void print(){
+System.out.println("This is a practice program");
+ }
+
+public static void equation() 
+ {
+     int y = 0;
+     String equation = "3(2y-5)+4y=5";
+     equation = "6y-15+4y=5";
+     equation = "10y-15=5";
+     equation = "10y-20";
+     y = 20/10;
+ System.out.println("The value of y is " +y);
+ }   
+ 
+public void encap1(){
+System.out.println("This is my name");
+ }
+ 
+}
+ 
+class extension extends practice
+ {
+ public void encap2(){
+   super.encap1();
+ }
+   }
+
+
